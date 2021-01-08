@@ -1,0 +1,16 @@
+.State {
+    h1 {
+        color: blue;
+    }
+    p {
+        font-weight: bold;
+    }
+
+    .active {
+        color: yellowgreen;
+    }
+
+    .inactive {
+        color: blue;
+    }
+}
