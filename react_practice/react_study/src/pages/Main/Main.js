@@ -1,11 +1,11 @@
 import React, { Component } from "react";
+import "./Main.scss";
 
 class Main extends Component {
     render() {
         return (
-            <div claaName="Main">
-                <h1>Main Page</h1>
-                <button> Click </button>
+            <div className="Main">
+                <h1>This is Main Page</h1>
             </div>
         );
     }
