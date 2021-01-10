@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import CommentList from "./mainComponents/CommentList/CommentList";
+import CommentList from "./mainComponent/CommentList/CommentLists/CommentList";
 
 import "./Main.scss";
 
