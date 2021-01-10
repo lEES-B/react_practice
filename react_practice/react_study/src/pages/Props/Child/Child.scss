@@ -1,0 +1,21 @@
+.child {
+    .showSubTitle {
+        display: block;
+    }
+    .hideSubTitle {
+        display: none;
+    }
+}
+
+// display: block; none; 으로 구분하면, none이 되면 해당 글씨자리 자체가 없어지기 때문에
+// 버튼으로 핸들링 시, 버튼의 위치도 바뀐다.
+// 이럴때는 글씨자리를 보존하기 위해 opacity를 써줄 수 도 있다.
+
+.child {
+    .showSubTitle {
+        opacity: 1;
+    }
+    .hideSubTitle {
+        opacity: 0;
+    }
+}
